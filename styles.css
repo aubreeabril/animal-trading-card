@@ -1,0 +1,55 @@
+/* add your CSS here */
+.facts {
+  font-weight: bold;
+}
+
+li {
+  list-style-type: none;
+  font-family:'Lato', sans-serif;
+}
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+}
+
+.card {
+  max-width: 400px;
+  border-color: #C0C0C0	;
+  border-style: solid;
+  border-width: medium;
+  background-color: #E8E8E8;
+  border-radius: 5px;
+}
+
+.fact-box {
+  border-color: #C0C0C0;
+  border-style: solid;
+  border-width: medium;
+  max-width: 300px;
+  margin:30px;
+  padding:15px;
+  border-radius: 5px;
+  background-color: #F5F5F5;
+}
+
+.card-title {
+  text-align:center;
+}
+
+img {
+  width:300px;
+  padding-left:50px;
+  padding-right:50px;
+}
+
+img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
